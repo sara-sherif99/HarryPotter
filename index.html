@@ -1,0 +1,1098 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HarryPotter</title>
+    <link rel="icon" type="image/x-icon" href="images/logo.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <script src="./jquery-3.6.1.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+
+<body style="background-color: var(--background);">
+    <header class="header fixed-top">
+        <nav class="navbar navbar-expand-lg pt-0">
+            <div class="container-fluid d-flex flex-row  justify-content-between">
+                <a href="index.html" class="navbar-brand d-flex align-items-center">
+                    <img src="images/logo.png" height="75">
+                    <span>HarryPotter</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 500px;">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#values">Values</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#features">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#pricing">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portoflio">Portoflio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#team">Team</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#blog" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Blog
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#blog">Action</a></li>
+                                <li><a class="dropdown-item" href="#blog">Another action</a></li>
+                                <li><a class="dropdown-item" href="#blog">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                        <li class="nav-item mt-auto mb-auto">
+                            <button class="btn btn-yellow" type="submit">Get Started</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="bottomf container text-center mt-lg-5 pt-4" id="home">
+        <div class="row align-items-center">
+            <div class="col-lg mt-5 pt-lg-5 aos-init" data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="100">
+                <p class="text-start fs-1  fw-bold mt-5"
+                    style="font-family: 'Rubik', sans-serif; color: var(--secondary);">Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit.</p>
+                <p class="text-start fs-4 text-secondary aos-init" data-aos="fade-up" data-aos-delay="400"
+                    data-aos-duration="1000">
+                    Ratione porro voluptatibus ducimus fuga, deleniti, impedit voluptas delectus accusamus molestiae
+                    vitae animi! Nostrum?</p>
+                <div class="text-lg-start">
+                    <button class="btn btn-yellow btn-lg main aos-init" data-aos="fade-up" data-aos-delay="600"
+                        data-aos-duration="1000" type="submit">Get Started
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="col-lg text-lg-end mt-5 pt-5 aos-init" data-aos="fade-up" data-aos-delay="200"
+                data-aos-duration="1000">
+                <img src="images/pic2.png" class="img-fluid" alt="...">
+            </div>
+        </div>
+    </div>
+    <div class="bottom container text-center pt-lg-5" id="about">
+        <div class="row align-items-center g-0">
+            <div class="col-lg mt-4 bg-white p-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100"
+                data-aos-duration="1000">
+                <p class="text-start Nunito">WHO WE ARE</p>
+                <p class="text-start fs-4  fw-bold" style="font-family: 'Rubik', sans-serif; color: var(--secondary);">
+                    Expedita voluptas omnis cupiditate totam eveniet nobis sint iste. Dolores est repellat corrupti
+                    reprehenderit.</p>
+                <p class="text-start text-secondary">Quisquam vel ut sint cum eos hic dolores aperiam. Sed deserunt et.
+                    Inventore et et dolor consequatur itaque ut voluptate sed et. Magnam nam ipsum tenetur suscipit
+                    voluptatum nam et est corrupti.</p>
+                <div class="text-lg-start">
+                    <button class="btn btn-yellow main" type="submit">Read More <i
+                            class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+            <div class="col-lg aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+                <img src="images/pic3.jpg" class="img-fluid" alt="...">
+            </div>
+        </div>
+    </div>
+    <div class="bottom container text-center values" id="values">
+        <p class="Nunito">OUR VALUES</p>
+        <p class="fs-2  fw-bold" style="font-family: 'Rubik', sans-serif; color: var(--secondary);">Expedita voluptas
+            omnis cupiditate totam eveniet nobis sint iste.</p>
+        <div class="row  g-5">
+            <div class="col-lg aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+                <div class="box">
+                    <img src="images/card1.png" class="img-fluid" alt="">
+                    <h3>Ad cupiditate sed est odio</h3>
+                    <p>Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur sit. Et veritatis id.</p>
+                </div>
+            </div>
+            <div class="col-lg aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+                <div class="box">
+                    <img src="images/card2.png" class="img-fluid" alt="">
+                    <h3>Voluptatem voluptatum</h3>
+                    <p>Repudiandae amet nihil natus in distinctio suscipit id. Doloremque ducimus ea sit non.</p>
+                </div>
+            </div>
+            <div class="col-lg aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+                <div class="box">
+                    <img src="images/card3.png" class="img-fluid" alt="">
+                    <h3>Fugit cupiditate alias nobis.</h3>
+                    <p>Quam rem vitae est autem molestias explicabo debitis sint. Vero aliquid quidem commodi.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom container text-center cards">
+        <div class="row g-5">
+            <div class="col-lg aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+                <div class="count-box">
+                    <div class="d-flex align-items-center">
+                        <i class="fa-regular fa-face-smile"></i>
+                        <div class="card-body">
+                            <h5 class="card-title">232</h5>
+                            <p class="card-text">Happy Clients</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+                <div class="count-box">
+                    <div class="d-flex align-items-center">
+                        <i class="fa-regular fa-address-book"></i>
+                        <div class="card-body">
+                            <h5 class="card-title">512</h5>
+                            <p class="card-text">Projects</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+                <div class="count-box">
+                    <div class="d-flex align-items-center">
+                        <i class="fa-solid fa-headphones-simple"></i>
+                        <div class="card-body">
+                            <h5 class="card-title">1463</h5>
+                            <p class="card-text">Hours Of Support</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+                <div class="count-box">
+                    <div class="d-flex align-items-center">
+                        <i class="fa-solid fa-user-group"></i>
+                        <div class="card-body">
+                            <h5 class="card-title">15</h5>
+                            <p class="card-text">Hard Workers</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom container text-center" id="features">
+        <p class="Nunito">FEATURES</p>
+        <p class="fs-2  fw-bold" style="font-family: 'Rubik', sans-serif; color: var(--secondary);">Laboriosam et omnis
+            fuga quis dolor direda fara</p>
+        <div class="row">
+            <div class="col-lg aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+                <img src="images/pic4.png" class="w-100" alt="">
+            </div>
+            <div class="col-lg d-flex flex-column justify-content-around cards pt-5 pb-5">
+                <div class="row align-items-center">
+                    <div class="col-lg aos-init aos-animate" data-aos="fade-up" data-aos-delay="100"
+                        data-aos-duration="1000">
+                        <div class="feature">
+                            <div class="d-flex align-items-center">
+                                <i class="fa-solid fa-square-check"></i>
+                                <div class="card-body">
+                                    <h5 class="card-title">Eos aspernatur rem</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg aos-init aos-animate" data-aos="fade-up" data-aos-delay="100"
+                        data-aos-duration="1000">
+                        <div class="feature">
+                            <div class="d-flex align-items-center">
+                                <i class="fa-solid fa-square-check"></i>
+                                <div class="card-body">
+                                    <h5 class="card-title">Facilis neque ipsa</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row  align-items-center">
+                    <div class="col-lg aos-init aos-animate" data-aos="fade-up" data-aos-delay="100"
+                        data-aos-duration="1000">
+                        <div class="feature">
+                            <div class="d-flex align-items-center">
+                                <i class="fa-solid fa-square-check"></i>
+                                <div class="card-body">
+                                    <h5 class="card-title">Volup amet voluptas</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg aos-init aos-animate" data-aos="fade-up" data-aos-delay="100"
+                        data-aos-duration="1000">
+                        <div class="feature">
+                            <div class="d-flex align-items-center">
+                                <i class="fa-solid fa-square-check"></i>
+                                <div class="card-body">
+                                    <h5 class="card-title">Rerum omnis sint</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-lg aos-init aos-animate" data-aos="fade-up" data-aos-delay="100"
+                        data-aos-duration="1000">
+                        <div class="feature">
+                            <div class="d-flex align-items-center">
+                                <i class="fa-solid fa-square-check"></i>
+                                <div class="card-body">
+                                    <h5 class="card-title">Alias possimus</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg aos-init aos-animate" data-aos="fade-up" data-aos-delay="100"
+                        data-aos-duration="1000">
+                        <div class="feature">
+                            <div class="d-flex align-items-center">
+                                <i class="fa-solid fa-square-check"></i>
+                                <div class="card-body">
+                                    <h5 class="card-title">Repellendus mollitia</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom container text-center schools">
+        <div class="row">
+            <div class="col-lg aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page">Gryffindor</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Ravenclaw</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Hufflepuff</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Slytherin</a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="ex1-content">
+                    <div class="tab-pane fade show active" id="Gryffindor">
+                        Consequuntur inventore voluptates consequatur aut vel et. Eos doloribus expedita. Sapiente atque
+                        consequatur minima nihil quae aspernatur quo suscipit voluptatem.
+                    </div>
+                    <div class="tab-pane fade " id="Ravenclaw">
+                        Repudiandae rerum velit modi et officia quasi facilis
+                        Laborum omnis voluptates voluptas qui sit aliquam blanditiis. Sapiente minima commodi dolorum
+                        non eveniet magni quaerat nemo et.
+                    </div>
+                    <div class="tab-pane fade" id="Hufflepuff">
+                        Incidunt non veritatis illum ea ut nisi
+                        Non quod totam minus repellendus autem sint velit. Rerum debitis facere soluta tenetur.
+                    </div>
+                    <div class="tab-pane fade" id="Slytherin">
+                        Iure molestiae assumenda sunt qui inventore eligendi voluptates nisi at. Dolorem quo tempora.
+                        Quia et perferendis.
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+                <img src="images/pic5.png" class="w-100" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="bottom container text-center">
+        <p class="fs-2  fw-bold" style="font-family: 'Rubik', sans-serif; color: var(--secondary);">Laboriosam et omnis
+            fuga quis dolor direda fara</p>
+        <div class="row">
+            <div class="col-lg-4 mt-auto mb-auto">
+                <img src="images/pic6.png" class="w-100" alt="">
+            </div>
+            <div class="col-lg-8 d-flex flex-column justify-content-around cards pt-5">
+                <div class="row align-items-center m-lg-4">
+                    <div class="col-lg aos-init aos-animate" data-aos="fade-up" data-aos-delay="100"
+                        data-aos-duration="1000">
+                        <div class="icon-box">
+                            <i class="fa-solid fa-chart-line"></i>
+                            <div>
+                                <h4>Corporis voluptates sit</h4>
+                                <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg aos-init aos-animate" data-aos="fade-up" data-aos-delay="100"
+                        data-aos-duration="1000">
+                        <div class="icon-box">
+                            <i class="fa-solid fa-layer-group"></i>
+                            <div>
+                                <h4>Ullamco laboris nisi</h4>
+                                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center m-lg-4">
+                    <div class="col-lg aos-init aos-animate" data-aos="fade-up" data-aos-delay="100"
+                        data-aos-duration="1000">
+                        <div class="icon-box">
+                            <i class="fa-solid fa-brush"></i>
+                            <div>
+                                <h4>Labore consequatur</h4>
+                                <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg aos-init aos-animate" data-aos="fade-up" data-aos-delay="100"
+                        data-aos-duration="1000">
+                        <div class="icon-box">
+                            <i class="fa-solid fa-star"></i>
+                            <div>
+                                <h4>Beatae veritatis</h4>
+                                <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center m-lg-4">
+                    <div class="col-lg aos-init aos-animate" data-aos="fade-up" data-aos-delay="100"
+                        data-aos-duration="1000">
+                        <div class="icon-box">
+                            <i class="fa-solid fa-vector-square"></i>
+                            <div>
+                                <h4>Molestiae dolor</h4>
+                                <p>Et fuga et deserunt et enim. Dolorem architecto ratione tensa raptor marte</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg">
+                        <div class="icon-box aos-init aos-animate" data-aos="fade-up" data-aos-delay="100"
+                            data-aos-duration="1000">
+                            <i class="fa-solid fa-satellite-dish"></i>
+                            <div>
+                                <h4>Explicabo consectetur</h4>
+                                <p>Est autem dicta beatae suscipit. Sint veritatis et sit quasi ab aut inventore</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom container text-center services" id="services">
+        <p class="Nunito">SERVICES</p>
+        <p class="fs-2  fw-bold" style="font-family: 'Rubik', sans-serif; color: var(--secondary);">Veritatis et dolores
+            facere numquam et praesentium</p>
+        <div class="row m-lg-4">
+            <div class="col-lg service-box aos-init aos-animate" data-aos="fade-up" data-aos-delay="100"
+                data-aos-duration="1000">
+                <i class="fa-regular fa-message"></i>
+                <h3>Nesciunt Mete</h3>
+                <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure
+                    perferendis tempore et consequatur.</p>
+                <a class="read-more"><span>Read More</span> <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            <div class="col-lg service-box aos-init aos-animate" data-aos="fade-up" data-aos-delay="100"
+                data-aos-duration="1000">
+                <i class="fa-regular fa-message"></i>
+                <h3>Nesciunt Mete</h3>
+                <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure
+                    perferendis tempore et consequatur.</p>
+                <a class="read-more"><span>Read More</span> <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            <div class="col-lg service-box aos-init aos-animate" data-aos="fade-up" data-aos-delay="100"
+                data-aos-duration="1000">
+                <i class="fa-regular fa-message"></i>
+                <h3>Nesciunt Mete</h3>
+                <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure
+                    perferendis tempore et consequatur.</p>
+                <a class="read-more"><span>Read More</span> <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </div>
+        <div class="row m-lg-4">
+            <div class="col-lg service-box aos-init aos-animate" data-aos="fade-up" data-aos-delay="100"
+                data-aos-duration="1000">
+                <i class="fa-regular fa-message"></i>
+                <h3>Nesciunt Mete</h3>
+                <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure
+                    perferendis tempore et consequatur.</p>
+                <a class="read-more"><span>Read More</span> <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            <div class="col-lg service-box aos-init aos-animate" data-aos="fade-up" data-aos-delay="100"
+                data-aos-duration="1000">
+                <i class="fa-regular fa-message"></i>
+                <h3>Nesciunt Mete</h3>
+                <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure
+                    perferendis tempore et consequatur.</p>
+                <a class="read-more"><span>Read More</span> <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            <div class="col-lg service-box aos-init aos-animate" data-aos="fade-up" data-aos-delay="100"
+                data-aos-duration="1000">
+                <i class="fa-regular fa-message"></i>
+                <h3>Nesciunt Mete</h3>
+                <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure
+                    perferendis tempore et consequatur.</p>
+                <a class="read-more"><span>Read More</span> <i class="fa-solid fa-arrow-right"></i></a>
+
+            </div>
+        </div>
+    </div>
+    <div class="bottom container text-center pricing" id="pricing">
+        <p class="Nunito">PRICING</p>
+        <p class="fs-2  fw-bold" style="font-family: 'Rubik', sans-serif; color: var(--secondary);">Check our Pricing
+        </p>
+        <div class="row gy-4">
+
+            <div class="col-lg-3 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100"
+                data-aos-duration="1000">
+                <div class="box">
+                    <h3 style="color: #DD1917;">Free Plan</h3>
+                    <div class="price"><sup>$</sup>0<span> / mo</span></div>
+                    <img src="images/1.jpg" class="img-fluid" alt="">
+                    <ul>
+                        <li>Aida dere</li>
+                        <li>Nec feugiat nisl</li>
+                        <li>Nulla at volutpat dola</li>
+                        <li class="na">Pharetra massa</li>
+                        <li class="na">Massa ultricies mi</li>
+                    </ul>
+                    <a href="#" class="btn-buy">Buy Now</a>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100"
+                data-aos-duration="1000">
+                <div class="box">
+                    <span class="featured">Featured</span>
+                    <h3 style="color: #222889;">Starter Plan</h3>
+                    <div class="price"><sup>$</sup>19<span> / mo</span></div>
+                    <img src="images/2.jpg" class="img-fluid" alt="">
+                    <ul>
+                        <li>Aida dere</li>
+                        <li>Nec feugiat nisl</li>
+                        <li>Nulla at volutpat dola</li>
+                        <li>Pharetra massa</li>
+                        <li class="na">Massa ultricies mi</li>
+                    </ul>
+                    <a href="#" class="btn-buy">Buy Now</a>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100"
+                data-aos-duration="1000">
+                <div class="box">
+                    <h3 style="color: #F6F589;">Business Plan</h3>
+                    <div class="price"><sup>$</sup>29<span> / mo</span></div>
+                    <img src="images/3.jpg" class="img-fluid" alt="">
+                    <ul>
+                        <li>Aida dere</li>
+                        <li>Nec feugiat nisl</li>
+                        <li>Nulla at volutpat dola</li>
+                        <li>Pharetra massa</li>
+                        <li>Massa ultricies mi</li>
+                    </ul>
+                    <a href="#" class="btn-buy">Buy Now</a>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100"
+                data-aos-duration="1000">
+                <div class="box">
+                    <h3 style="color: #00613A;">Ultimate Plan</h3>
+                    <div class="price"><sup>$</sup>49<span> / mo</span></div>
+                    <img src="images/4.jpg" class="img-fluid" alt="">
+                    <ul>
+                        <li>Aida dere</li>
+                        <li>Nec feugiat nisl</li>
+                        <li>Nulla at volutpat dola</li>
+                        <li>Pharetra massa</li>
+                        <li>Massa ultricies mi</li>
+                    </ul>
+                    <a href="#" class="btn-buy">Buy Now</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="bottom container text-center">
+        <p class="Nunito">F.A.Q</p>
+        <p class="fs-2  fw-bold" style="font-family: 'Rubik', sans-serif; color: var(--secondary);">Frequently Asked
+            Questions</p>
+        <div class="row gy-4">
+            <div class="col-lg aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+                <div class="accordion bg-white" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Non consectetur a erat nam at lectus urna duis?
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non
+                                curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus
+                                non.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum
+                                velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec
+                                pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus
+                                turpis massa tincidunt dui.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus
+                                pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum
+                                tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna
+                                molestie at elementum eu facilisis sed odio morbi quis
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+                <div class="accordion" id="accordion">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                                Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                            data-bs-parent="#accordion">
+                            <div class="accordion-body">
+                                Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum
+                                velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec
+                                pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus
+                                turpis massa tincidunt dui.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                Tempus quam pellentesque nec nam aliquam sem et tortor consequat?
+                            </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                            data-bs-parent="#accordion">
+                            <div class="accordion-body">
+                                Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est
+                                ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit
+                                adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingSix">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                Varius vel pharetra vel turpis nunc eget lorem dolor?
+                            </button>
+                        </h2>
+                        <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                            data-bs-parent="#accordion">
+                            <div class="accordion-body">
+                                Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo
+                                integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc
+                                eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque.
+                                Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus.
+                                Nibh tellus molestie nunc non blandit massa enim nec.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom container text-center portfolio" id="portoflio">
+        <p class="Nunito">PORTFOLIO</p>
+        <p class="fs-2  fw-bold" style="font-family: 'Rubik', sans-serif; color: var(--secondary);">Check our latest
+            work</p>
+        <div class="row">
+            <div class="col-lg-12 d-flex justify-content-center aos-init aos-animate" data-aos="fade-up"
+                data-aos-delay="100" data-aos-duration="1000">
+                <ul id="portfolio-flters">
+                    <li data-filter="*" class="filter-active">All</li>
+                    <li data-filter=".filter-app">App</li>
+                    <li data-filter=".filter-card">Card</li>
+                    <li data-filter=".filter-web">Web</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row g-3 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+            <div class="col-lg-4">
+                <img src="images/alb1.jpg" class="img-fluid App" alt="">
+            </div>
+            <div class="col-lg-4">
+                <img src="images/alb2.jpg" class="img-fluid Web" alt="">
+            </div>
+            <div class="col-lg-4">
+                <img src="images/alb3.jpg" class="img-fluid App" alt="">
+            </div>
+            <div class="col-lg-4">
+                <img src="images/alb4.jpg" class="img-fluid Card" alt="">
+            </div>
+            <div class="col-lg-4">
+                <img src="images/alb5.jpg" class="img-fluid Web" alt="">
+            </div>
+            <div class="col-lg-4">
+                <img src="images/alb6.jpg" class="img-fluid Card" alt="">
+            </div>
+            <div class="col-lg-4">
+                <img src="images/alb7.jpg" class="img-fluid App" alt="">
+            </div>
+            <div class="col-lg-4">
+                <img src="images/alb8.jpg" class="img-fluid Web" alt="">
+            </div>
+            <div class="col-lg-4">
+                <img src="images/alb1.jpg" class="img-fluid Card" alt="">
+            </div>
+        </div>
+        <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img src="" class="imagepreview">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="bottom container text-center characters">
+        <p class="Nunito">TESTIMONIALS</p>
+        <p class="fs-2  fw-bold" style="font-family: 'Rubik', sans-serif; color: var(--secondary);">What they are saying
+            about us</p>
+        <div>
+            <div class="slider">
+                <div class="slide">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="text">Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit
+                        rhoncus.
+                        Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                    </div>
+                    <img src="images/ch1.png">
+                    <h3>Harry Potter</h3>
+                    <p>Gryffindor House</p>
+                </div>
+                <div class="slide">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="text">Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit
+                        rhoncus.
+                        Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                    </div>
+                    <img src="images/ch2.png">
+                    <h3>Severus Snape</h3>
+                    <p>Slytherin House</p>
+                </div>
+                <div class="slide">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="text">Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit
+                        rhoncus.
+                        Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                    </div>
+                    <img src="images/ch3.png">
+                    <h3>Albus Dumbledore</h3>
+                    <p>Headmaster of Hogwarts</p>
+                </div>
+                <div class="slide">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="text">Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit
+                        rhoncus.
+                        Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                    </div>
+                    <img src="images/ch4.png">
+                    <h3>Sirius Black</h3>
+                    <p>Godfather of Harry Potter</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom container text-center team" id="team">
+        <p class="Nunito">TEAM</p>
+        <p class="fs-2  fw-bold" style="font-family: 'Rubik', sans-serif; color: var(--secondary);">Our hard working
+            team
+        <div class="row gy-4">
+
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch aos-init aos-animate" data-aos="fade-up"
+                data-aos-delay="100" data-aos-duration="1000">
+                <div class="member">
+                    <div class="member-img">
+                        <img src="images/team1.jpg" class="img-fluid" alt="">
+                        <div class="social">
+                            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                            <a href=""><i class="fa-brands fa-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h4>Harry Potter</h4>
+                        <span>The Boy Who Lived</span>
+                        <p>Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa quae aut. Ipsum
+                            exercitationem iure minima enim corporis et voluptate.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch aos-init aos-animate" data-aos="fade-up"
+                data-aos-delay="200" data-aos-duration="1000">
+                <div class="member">
+                    <div class="member-img">
+                        <img src="images/team2.jpg" class="img-fluid" alt="">
+                        <div class="social">
+                            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                            <a href=""><i class="fa-brands fa-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h4>Ron Weasley</h4>
+                        <span>Pure-blood Wizard</span>
+                        <p>Quo esse repellendus quia id. Est eum et accusantium pariatur fugit nihil minima suscipit
+                            corporis. Voluptate sed quas reiciendis animi neque sapiente.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch aos-init aos-animate" data-aos="fade-up"
+                data-aos-duration="1000" data-aos-delay="300">
+                <div class="member">
+                    <div class="member-img">
+                        <img src="images/team3.jpg" class="img-fluid" alt="">
+                        <div class="social">
+                            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                            <a href=""><i class="fa-brands fa-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h4>Hermione Granger</h4>
+                        <span>Muggle-born Witch</span>
+                        <p>Vero omnis enim consequatur. Voluptas consectetur unde qui molestiae deserunt. Voluptates
+                            enim aut architecto porro aspernatur molestiae modi.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch aos-init aos-animate" data-aos="fade-up"
+                data-aos-duration="1000" data-aos-delay="400">
+                <div class="member">
+                    <div class="member-img">
+                        <img src="images/team4.jpg" class="img-fluid" alt="">
+                        <div class="social">
+                            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                            <a href=""><i class="fa-brands fa-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h4>Draco Malfoy</h4>
+                        <span>The son of a Death Eater</span>
+                        <p>Rerum voluptate non adipisci animi distinctio et deserunt amet voluptas. Quia aut aliquid
+                            doloremque ut possimus ipsum officia.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        </p>
+    </div>
+    <div class="bottom container text-center clients">
+        <p class="Nunito">CLIENTS</p>
+        <p class="fs-2  fw-bold" style="font-family: 'Rubik', sans-serif; color: var(--secondary);">Temporibus omnis
+            officia</p>
+        <div class="client-area aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+            <div class="carousel-container">
+                <div class="slide"><img src="images/cli1.png"></div>
+                <div class="slide"><img src="images/cli2.png"></div>
+                <div class="slide"><img src="images/cli3.png"></div>
+                <div class="slide"><img src="images/cli4.png"></div>
+                <div class="slide"><img src="images/cli5.png"></div>
+                <div class="slide"><img src="images/cli6.png"></div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom container text-center blog" id="blog">
+        <p class="Nunito">BLOG</p>
+        <p class="fs-2  fw-bold" style="font-family: 'Rubik', sans-serif; color: var(--secondary);">Recent posts form
+            our Blog</p>
+        <div class="row">
+
+            <div class="col-lg-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+                <div class="post-box">
+                    <div class="post-img"><img src="images/blog1.jpg" class="img-fluid" alt=""></div>
+                    <span class="post-date">Tue, September 15</span>
+                    <h3 class="post-title">Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur sit</h3>
+                    <a class="readmore stretched-link mt-auto"><span>Read More</span><i
+                            class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="col-lg-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+                <div class="post-box">
+                    <div class="post-img"><img src="images/blog2.jpg" class="img-fluid" alt=""></div>
+                    <span class="post-date">Fri, August 28</span>
+                    <h3 class="post-title">Et repellendus molestiae qui est sed omnis voluptates magnam</h3>
+                    <a class="readmore stretched-link mt-auto"><span>Read More</span><i
+                            class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="col-lg-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+                <div class="post-box">
+                    <div class="post-img"><img src="images/blog3.jpg" class="img-fluid" alt=""></div>
+                    <span class="post-date">Mon, July 11</span>
+                    <h3 class="post-title">Quia assumenda est et veritatis aut quae</h3>
+                    <a class="readmore stretched-link mt-auto"><span>Read More</span><i
+                            class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="bottom container text-center contact" id="contact">
+        <p class="Nunito">CONTACT</p>
+        <p class="fs-2  fw-bold" style="font-family: 'Rubik', sans-serif; color: var(--secondary);">Contact Us</p>
+
+        <div class="row gy-4">
+            <div class="col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+                <div class="row gy-4">
+                    <div class="col-md-6">
+                        <div class="info-box">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <h3>Address</h3>
+                            <p>A108 Adam Street,<br>New York, NY 535022</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="info-box">
+                            <i class="fa-solid fa-phone"></i>
+                            <h3>Call Us</h3>
+                            <p>+1 5589 55488 55<br>+1 6678 254445 41</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="info-box">
+                            <i class="fa-solid fa-envelope"></i>
+                            <h3>Email Us</h3>
+                            <p>info@example.com<br>contact@example.com</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="info-box">
+                            <i class="fa-solid fa-clock"></i>
+                            <h3>Open Hours</h3>
+                            <p>Monday - Friday<br>9:00AM - 05:00PM</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+                <form action="forms/contact.php" method="post" class="form">
+                    <div class="row gy-4 h-100 justify-content-between">
+
+                        <div class="col-md-6">
+                            <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                        </div>
+
+                        <div class="col-md-6 ">
+                            <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                        </div>
+
+                        <div class="col-md-12">
+                            <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                        </div>
+
+                        <div class="col-md-12">
+                            <textarea class="form-control" name="message" rows="6" placeholder="Message"
+                                required=""></textarea>
+                        </div>
+
+                        <div class="col-md-12 text-center">
+                            <button type="submit">Send Message</button>
+                        </div>
+
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-newsletter">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-12 text-center aos-init aos-animate" data-aos="fade-up" data-aos-delay="100"
+                        data-aos-duration="1000">
+                        <h4>Our Newsletter</h4>
+                        <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+                    </div>
+                    <div class="col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100"
+                        data-aos-duration="1000">
+                        <form action="" method="post">
+                            <input type="email" name="email"><input type="submit" value="Subscribe">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-top">
+            <div class="container">
+                <div class="row gy-4">
+                    <div class="col-lg-5 col-md-12 footer-info aos-init aos-animate" data-aos="fade-up"
+                        data-aos-delay="100" data-aos-duration="1000">
+                        <a href="index.html" class="logo d-flex align-items-center">
+                            <img src="images/logo.png" alt="">
+                            <span>HarryPotter</span>
+                        </a>
+                        <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita
+                            valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+                        <div class="social-links mt-3">
+                            <a href="#" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#" class="facebook"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#" class="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-6 footer-links aos-init aos-animate" data-aos="fade-up"
+                        data-aos-delay="100" data-aos-duration="1000">
+                        <h4>Useful Links</h4>
+                        <ul>
+                            <li>Home</li>
+                            <li>About us</li>
+                            <li>Services</li>
+                            <li>Terms of service</li>
+                            <li>Privacy policy</li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-2 col-6 footer-links aos-init aos-animate" data-aos="fade-up"
+                        data-aos-delay="100" data-aos-duration="1000">
+                        <h4>Our Services</h4>
+                        <ul>
+                            <li>Web Design</li>
+                            <li>Web Development</li>
+                            <li>Product Management</li>
+                            <li>Marketing</li>
+                            <li>Graphic Design</li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start aos-init aos-animate"
+                        data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+                        <h4>Contact Us</h4>
+                        <p>
+                            A108 Adam Street <br>
+                            New York, NY 535022<br>
+                            United States <br><br>
+                            <strong>Phone:</strong> +1 5589 55488 55<br>
+                            <strong>Email:</strong> info@example.com<br>
+                        </p>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+            class="fa-solid fa-arrow-up"></i></a>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="code.js"></script>
+</body>
+
+</html>
